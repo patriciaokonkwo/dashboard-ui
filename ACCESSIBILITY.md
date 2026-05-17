@@ -12,6 +12,17 @@ This document outlines the accessibility features and considerations for the Das
 - Use semantic HTML for better screen reader support.
 - Provide alternative text for images.
 
+## ARIA Labels Examples
+- Use `aria-label` to provide an accessible name for elements:
+  ```html
+  <button aria-label="Close">X</button>
+  ```
+- Use `aria-labelledby` to reference another element for labeling:
+  ```html
+  <h1 id="main-title">Main Title</h1>
+  <button aria-labelledby="main-title">Open</button>
+  ```
+
 ## Testing
 - Regularly test with screen readers and keyboard navigation to ensure compliance.
 
