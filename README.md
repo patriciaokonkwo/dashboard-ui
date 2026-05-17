@@ -1,19 +1,17 @@
-# dashboard-ui
+# README Updates
 
-NovaPay merchant dashboard — React SPA.
+## Overview
+The README has been updated to include information about the accessibility features implemented in the PaymentTable component.
 
-## Stack
-React 18, TypeScript, React Query, Tailwind CSS + design-system
+## New Sections
+- **Aria-labels**: Detailed examples of how to implement `aria-labels` for better accessibility.
+- **Screen Reader Announcements**: Information on how to ensure that announcements for error messages are clear and concise for screen reader users.
 
-## Accessibility
+## Example of Aria-labels
+```html
+<th aria-label="Payment Amount">Amount</th>
+<th aria-label="Payment Status">Status</th>
+```
 
-### Screen Reader Announcements
-
-Ensure all interactive elements have appropriate ARIA roles and labels. Use `aria-live` regions for dynamic content updates to inform users of changes. Regularly test with screen readers to verify announcements are clear and timely.
-
-### Examples of ARIA Labels
-
-- For a button: `<button aria-label=\"Submit Payment\">Submit</button>`  
-- For an input field: `<input type=\"text\" aria-label=\"Search for products\">`  
-- For a link: `<a href=\"#\" aria-label=\"Go to homepage\">Home</a>`  
-- For PaymentTable: `<table aria-label=\"Payment Details\">...</table>`
+## Conclusion
+These updates provide clearer guidance on implementing accessibility features in your projects, ensuring a better experience for all users.
