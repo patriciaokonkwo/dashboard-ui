@@ -14,3 +14,7 @@ This document outlines the accessibility features and considerations for the Das
 
 ## Testing
 - Regularly test with screen readers and keyboard navigation to ensure compliance.
+
+## Additional Considerations
+- Follow WCAG 2.1 guidelines for accessibility.
+- Conduct user testing with individuals with disabilities to gather feedback.
