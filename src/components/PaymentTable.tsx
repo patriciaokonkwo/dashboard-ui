@@ -16,12 +16,21 @@ export function PaymentTable() {
 
   return (
     <table className="w-full border-collapse">
-      <thead><tr><th>ID</th><th>Amount</th><th>Status</th><th>Date</th></tr></thead>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Amount</th>
+          <th>Status</th>
+          <th>Date</th>
+        </tr>
+      </thead>
       <tbody>
         {data?.map((p: Payment) => (
           <tr key={p.id}>
-            <td>{p.id}</td><td>{p.amount} {p.currency}</td>
-            <td>{p.status}</td><td>{p.createdAt}</td>
+            <td>{p.id}</td>
+            <td>{p.amount} {p.currency}</td>
+            <td aria-label={`Payment status: ${p.status}`} scope="row">{p.status}</td>
+            <td>{p.createdAt}</td>
           </tr>
         ))}
       </tbody>
