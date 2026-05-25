@@ -20,3 +20,5 @@ To create a production build, run:
 ```bash
 npm run build
 ```
+
+**Note:** Payment flow documentation is currently missing.
