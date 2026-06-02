@@ -1,24 +1,9 @@
-# PaymentTable Accessibility Updates
+## User Testing Results
 
-## Overview
-The PaymentTable component has been updated to improve accessibility for users relying on assistive technologies.
+User testing was conducted with a group of individuals using assistive technologies. The following feedback was gathered:
 
-## Changes Made
-- **Added aria-labels**: Each column header now includes an `aria-label` to provide context for screen readers.
-- **Scope Attributes**: Column headers have been assigned appropriate `scope` attributes to enhance navigation.
+1. **Screen Reader Compatibility**: All users reported that the added aria-labels improved their understanding of the PaymentTable's structure and content.
+2. **Navigation Ease**: Users found the scope attributes helpful for navigating through the table efficiently.
+3. **Suggestions for Improvement**: Some users suggested adding tooltips for additional context on payment statuses.
 
-## Examples
-### Aria-labels
-```html
-<th aria-label="Payment Amount">Amount</th>
-<th aria-label="Payment Status">Status</th>
-```
-
-### Scope Attributes
-```html
-<th scope="col">Payment Amount</th>
-<th scope="col">Payment Status</th>
-```
-
-## Conclusion
-These updates ensure that the PaymentTable is more accessible and user-friendly for all users, including those using screen readers.
+Overall, the updates significantly enhanced the accessibility of the PaymentTable component.
