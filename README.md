@@ -1,24 +1,11 @@
-# Setup Instructions
+## Project Structure
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/patriciaokonkwo/dashboard-ui.git
-   cd dashboard-ui
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+- `src/`: Contains the source code.
+- `public/`: Contains static assets.
+- `package.json`: Lists dependencies and scripts.
 
-## Build
-To create a production build, run:
-```bash
-npm run build
-```
+## Configuration Options
 
-**Note:** Payment flow documentation is currently missing.
+- `config.js`: Configuration settings for the application.
+- Environment variables can be set in a `.env` file.
+
