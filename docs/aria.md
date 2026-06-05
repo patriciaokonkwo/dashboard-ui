@@ -19,3 +19,7 @@ When using ARIA attributes in components with conditional rendering, ensure that
 - For a button: `<button aria-label="Submit Payment">Submit</button>`
 - For an input field: `<input type="text" aria-label="Search for products">`
 - For a link: `<a href="#" aria-label="Go to homepage">Home</a>`
+
+## Additional Note on Conditional Rendering
+
+Always re-evaluate ARIA attributes when rendering conditions change to ensure they remain accurate and do not mislead users.
